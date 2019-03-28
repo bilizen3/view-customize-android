@@ -3,14 +3,22 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
     <androidx.appcompat.widget.AppCompatEditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_password"
+            android:paddingEnd="50dp"
+            android:padding="10dp"
+            android:inputType="textPassword"
+            android:hint="Password  vdfbfdgbdfgd gdf gdf gfdgdfgdfgfdgdfgfddfg"/>
 
     <androidx.appcompat.widget.AppCompatImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_visibility_off"
+            android:paddingEnd="10dp"
+            android:layout_gravity="end|center"/>
 
 </FrameLayout>

@@ -14,14 +14,23 @@
             android:layout_marginTop="8dp"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:id="@+id/appCompatEditText"
+            android:padding="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/shape_password"
+            app:layout_constraintVertical_bias="0.255"/>
 
-    <androidx.appcompat.widget.AppCompatEditText
-            android:layout_width="match_parent"
+    <com.flores.view_customize_android.EditTextPassword
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+            android:layout_marginTop="96dp"
+            app:layout_constraintTop_toBottomOf="@+id/appCompatEditText"
             android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.0"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
